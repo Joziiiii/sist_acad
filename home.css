@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+
+body {
+    background-color: #FFFACC; /* Cor de fundo desejada */
+}
+
+.purple-bar {
+    background-color: #D0BDF4; /* Cor de fundo roxa da barra */
+    height: 85px; /* Altura da barra */
+    width: 100%; /* Largura total da página */
+    position: fixed; /* Fixa a barra no topo da página */
+    top: 0; /* Posiciona a barra no topo */
+    left: 0;
+    z-index: 1; /* Define a ordem de empilhamento */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-text {
+    color: black; /* Cor do texto preta */
+    font-size: 44px; /* Tamanho da fonte */
+    margin: 0; /* Remove margem padrão do h1 */
+    font-family: "Poppins";
+
+}
+
+.button-list {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Define a altura total da tela */
+}
+
+.button-list li {
+    margin: 15px 0; /* Espaçamento entre os botões */
+}
+
+.button {
+    background-color: #D0BDF4; /* Cor de fundo dos botões */
+    color: rgb(0, 0, 0); /* Cor do texto nos botões */
+    font-size: 30px; /* Tamanho da fonte dos botões */
+    padding: 10px 100px; /* Espaçamento interno dos botões */
+    border: none; /* Remove borda dos botões */
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button3 {
+    padding: 10px 42px; /* Ajuste o valor do padding para diminuir a largura */
+    background-color: #D0BDF4; /* Cor de fundo dos botões */
+    color: rgb(0, 0, 0); /* Cor do texto nos botões */
+    font-size: 30px; /* Tamanho da fonte dos botões */
+    border: none; /* Remove borda dos botões */
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button4 {
+    padding: 10px 80px; /* Ajuste o valor do padding para diminuir a largura */
+    background-color: #D0BDF4; /* Cor de fundo dos botões */
+    color: rgb(0, 0, 0); /* Cor do texto nos botões */
+    font-size: 30px; /* Tamanho da fonte dos botões */
+    border: none; /* Remove borda dos botões */
+    cursor: pointer;
+    border-radius: 10px;
+}
